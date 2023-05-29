@@ -13,7 +13,7 @@ export const deleteTodo = (id) => ({
 });
 
 //Update todo
-export const UPDATE_TODO = (id) => ({
+export const UPDATE_TODO = (id, todo) => ({
   type: UPDATE_TODO,
   payload: { todo: todo, todoId: id },
 });
